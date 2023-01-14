@@ -36,8 +36,10 @@ body {
       document.getElementById("sd").disabled = true;
     }
     function myFunction() {
-    alert("Sobaka redeemed successfully!");
-    disableElement()
+      const audio = new Audio("https://www.myinstants.com/media/sounds/gotmail00-1.mp3");
+      alert("Sobaka redeemed successfully!");
+      audio.play();
+      disableElement()
     }
   </script>
 </body>
